@@ -1,0 +1,20 @@
+{
+  "name": "11-plugin-packaging",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cordis 进阶第 11 课：把插件打包成可发布模块",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cordis": "^4.0.0-rc.8",
+    "@cordisjs/plugin-logger-console": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "@types/node": "^22.0.0"
+  }
+}
