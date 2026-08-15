@@ -1,0 +1,12 @@
+[
+  {
+    "name": "greeter",
+    "plugin": "./plugins/greeter.ts",
+    "config": { "prefix": "你好" }
+  },
+  {
+    "name": "logger",
+    "plugin": "./plugins/logger.ts",
+    "enabled": true
+  }
+]
