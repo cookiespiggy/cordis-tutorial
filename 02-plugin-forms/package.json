@@ -1,0 +1,19 @@
+{
+  "name": "02-plugin-forms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cordis 入门第 02 课：插件的三种形态与配置",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cordis": "^4.0.0-rc.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "@types/node": "^22.0.0"
+  }
+}
