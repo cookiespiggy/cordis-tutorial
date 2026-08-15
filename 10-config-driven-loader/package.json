@@ -1,0 +1,20 @@
+{
+  "name": "10-config-driven-loader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cordis 进阶第 10 课：用配置文件驱动插件加载",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cordis": "^4.0.0-rc.8",
+    "@cordisjs/plugin-logger-console": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "@types/node": "^22.0.0"
+  }
+}
