@@ -1,0 +1,19 @@
+{
+  "name": "04-effects-and-lifecycle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cordis 入门第 04 课：副作用与插件生命周期",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cordis": "^4.0.0-rc.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "@types/node": "^22.0.0"
+  }
+}
